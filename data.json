@@ -1,0 +1,14 @@
+{
+  "profile": {
+    "initials": "AK",
+    "bio1": "I'm a computer engineering student from Bamenda, Cameroon, holding a BTech in Information and Communication Technology from the Department of Computer Science and Networks. Over five years I've worked freelance and on teams building for the web, and within that time spent two years deep in Python.",
+    "bio2": "More recently I've moved into data analysis and applied AI — including certified work with Anthropic's Claude — and I'm currently completing an AI Engineering certificate with Udemy.",
+    "photoUrl": ""
+  },
+  "projects": [],
+  "certificates": [],
+  "journalPosts": [],
+  "siteSettings": {
+    "defaultAnimation": "fadeup"
+  }
+}

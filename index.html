@@ -1,0 +1,362 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Anyim Kelechi Lonpah Urai — Portfolio</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,300;9..144,450;9..144,600&family=Inter:wght@400;500;600&family=Space+Mono:wght@400;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body class="anim-fadeup">
+<div class="chrome">
+  <div class="chrome-bar">
+    <div class="dots"><div class="dot"></div><div class="dot"></div><div class="dot"></div></div>
+    <div class="url">mrark-x.dev</div>
+  </div>
+
+  <div class="site">
+    <nav>
+      <div class="logo-wrap">
+        <div class="logo">kelechi anyim<span>.</span></div>
+      </div>
+      <div class="navlinks">
+        <a href="#home" class="active">Home</a>
+        <a href="#work">Work</a>
+        <a href="#certificates">Certificates</a>
+        <a href="#journal">Journal</a>
+        <a href="#about">About</a>
+        <a href="#contact">Contact</a>
+      </div>
+      <div class="nav-right">
+        <a href="#contact" class="cta-btn">Start a project ↗</a>
+        <a href="#" class="cta-btn cv" id="cvBtn" download="Anyim-Kelechi-CV.pdf">Download CV ↓</a>
+      </div>
+    </nav>
+
+    <div class="layout">
+      <div class="rail">
+        <div class="rail-mark">*</div>
+        <div class="rail-index">
+          <a href="#home" class="rail-item current"><b>01</b> Home</a>
+          <a href="#work" class="rail-item"><b>02</b> Work</a>
+          <a href="#certificates" class="rail-item"><b>03</b> Certificates</a>
+          <a href="#journal" class="rail-item"><b>04</b> Journal</a>
+          <a href="#about" class="rail-item"><b>05</b> About</a>
+          <a href="#contact" class="rail-item"><b>06</b> Contact</a>
+        </div>
+      </div>
+
+      <div class="content">
+
+        <section class="hero" id="home">
+          <div class="hero-top">
+            <h1>I build web platforms, data tools, and <em>AI-powered products.</em></h1>
+            <div class="hero-meta">
+              Bamenda, Cameroon<br>
+              Available for freelance and team work<br>
+              anyimkelechi09@gmail.com
+            </div>
+          </div>
+          <p class="hero-sub">Computer engineering student (BTech, Information and Communication Technology — Computer Science and Networks) with five years of hands-on work across web development, Python, data analysis, and applied AI.</p>
+
+          <div class="hero-ctas">
+            <a href="#contact" class="cta-btn primary">Start a project ↗</a>
+            <a href="#work" class="cta-btn">See my work</a>
+          </div>
+
+          <div class="hero-stats">
+            <div class="stat reveal"><b>5+</b><span>Years in web development</span></div>
+            <div class="stat reveal"><b>2</b><span>Years working with Python</span></div>
+            <div class="stat reveal"><b>4</b><span>Disciplines — web, Python, data, AI</span></div>
+          </div>
+
+          <div class="hero-strip">
+            <span class="label">Tools and areas</span>
+            <div class="logos">
+              <span>Web development</span><span>Python</span><span>Data analysis</span><span>AI / Claude</span>
+            </div>
+          </div>
+        </section>
+
+        <section class="work" id="work">
+          <div class="work-head">
+            <h2>Selected work</h2>
+            <p>Projects from freelance and team work. Scroll for more — new work gets added here regularly.</p>
+          </div>
+          <div class="work-scroll" id="workScroll"></div>
+          <div class="work-manage">
+            <button class="cta-btn" id="manageBtn" type="button">Admin panel</button>
+          </div>
+        </section>
+
+        <section class="certificates" id="certificates">
+          <div class="eyebrow">Certificates</div>
+          <div class="cert-grid" id="certGrid"></div>
+        </section>
+
+        <section class="journal" id="journal">
+          <div class="work-head">
+            <h2>Journal</h2>
+            <p>Short write-ups on what I'm building and learning — web, Python, data, and AI.</p>
+          </div>
+          <div class="journal-grid" id="journalGrid"></div>
+        </section>
+
+        <section class="about" id="about">
+          <div class="eyebrow">About</div>
+          <div class="about-grid">
+            <div class="avatar reveal" id="avatarBox"><div class="initials" id="avatarInitials">AK</div></div>
+            <div class="about-body">
+              <h2 id="typewriterTarget"></h2>
+              <p id="bioP1">I'm a computer engineering student from Bamenda, Cameroon, holding a BTech in Information and Communication Technology from the Department of Computer Science and Networks. Over five years I've worked freelance and on teams building for the web, and within that time spent two years deep in Python.</p>
+              <p id="bioP2">More recently I've moved into data analysis and applied AI — including certified work with Anthropic's Claude — and I'm currently completing an AI Engineering certificate with Udemy.</p>
+              <div class="skills">
+                <div class="skill">Web development</div>
+                <div class="skill">Python</div>
+                <div class="skill">Data analysis</div>
+                <div class="skill">Applied AI</div>
+                <div class="skill">Freelance delivery</div>
+                <div class="skill">Team collaboration</div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section class="contact" id="contact">
+          <div>
+            <h2>Have a project in mind?<br>Reach out directly.</h2>
+            <p style="color:var(--paper-dim); font-size:14px; max-width:380px; margin:0 0 22px;">Fastest way to reach me is WhatsApp. For anything formal, email works too.</p>
+          </div>
+          <div>
+            <div class="contact-methods">
+              <a class="contact-btn" id="whatsappBtn" href="#" target="_blank" rel="noopener">
+                <span>WhatsApp — chat directly</span><span>↗</span>
+              </a>
+              <a class="contact-btn" id="emailBtn" href="#">
+                <span>Email — anyimkelechi09@gmail.com</span><span>↗</span>
+              </a>
+              <button class="contact-btn copy" id="copyEmailBtn" type="button">
+                <span>Copy email address</span><span id="copyState">Copy</span>
+              </button>
+            </div>
+            <div class="quick-msg">
+              <div class="field"><label for="mName">Your name</label><input id="mName" type="text" placeholder="Jane Doe"></div>
+              <div class="field"><label for="mFrom">Your email</label><input id="mFrom" type="text" placeholder="you@example.com"></div>
+              <div class="field"><label for="mMsg">Message</label><textarea id="mMsg" placeholder="What are you looking to build?"></textarea></div>
+              <p class="error-text" id="msgError">Add your name, email, and a short message.</p>
+              <button class="cta-btn primary" id="msgSend" type="button" style="background:var(--signal);border-color:var(--signal);color:var(--ink);width:100%;">Send message</button>
+              <p class="note">This opens your email app with the message pre-filled — the current, reliable way to reach me directly. A saved shared inbox is a planned upgrade for later.</p>
+            </div>
+          </div>
+        </section>
+
+        <footer>
+          <span>© 2026 Anyim Kelechi Lonpah Urai</span>
+          <span>Bamenda, Cameroon</span>
+        </footer>
+
+      </div>
+    </div>
+  </div>
+</div>
+
+<button class="cta-btn visitor-theme-btn" id="visitorThemeBtn" type="button">You can change the website's colour to your liking</button>
+
+<div class="modal-overlay" id="visitorThemeOverlay">
+  <div class="modal wide modal-wrap">
+    <button class="cta-btn modal-close" id="visitorThemeClose" type="button">Close</button>
+    <h3>Make it yours</h3>
+    <p class="sub">Everything here only changes how the site looks on your own device — nobody else sees this, and it never touches the real site data.</p>
+
+    <h3 style="margin-top:6px;">Pick a preset</h3>
+    <div class="swatch-grid" id="visitorSwatchGrid"></div>
+
+    <h3>Or choose your own colours</h3>
+    <div class="custom-color-row">
+      <div class="custom-color-box">
+        <label for="customBg">Background</label>
+        <input type="color" id="customBg" value="#12161c">
+      </div>
+      <div class="custom-color-box">
+        <label for="customText">Text</label>
+        <input type="color" id="customText" value="#f4f1e9">
+      </div>
+      <div class="custom-color-box">
+        <label for="customAccent">Accent</label>
+        <input type="color" id="customAccent" value="#c98a3e">
+      </div>
+    </div>
+    <button class="cta-btn" id="applyCustomColor" type="button" style="margin-bottom:22px;">Apply my colours</button>
+
+    <h3>Transition style</h3>
+    <p class="sub" id="siteDefaultAnimNote">Site default shown below unless you pick your own.</p>
+    <div class="anim-grid" id="visitorAnimGrid"></div>
+
+    <button class="cta-btn" id="visitorThemeReset" type="button" style="margin-top:20px;">Reset everything to site default</button>
+  </div>
+</div>
+
+<div class="modal-overlay" id="loginOverlay">
+  <div class="modal modal-wrap">
+    <button class="cta-btn modal-close" id="loginClose" type="button">Close</button>
+    <h3>Admin login</h3>
+    <p class="sub">Sign in to manage your site.</p>
+    <div class="field">
+      <label for="loginUser">Email</label>
+      <input id="loginUser" type="email" autocomplete="username">
+    </div>
+    <div class="field">
+      <label for="loginPass">Password</label>
+      <input id="loginPass" type="password" autocomplete="current-password">
+    </div>
+    <p class="error-text" id="loginError">That email or password isn't right. Try again.</p>
+    <div class="modal-actions">
+      <button class="cta-btn primary" id="loginSubmit" type="button" style="background:var(--signal);border-color:var(--signal);color:var(--ink);">Sign in</button>
+    </div>
+  </div>
+</div>
+
+<div class="modal-overlay" id="adminOverlay">
+  <div class="modal wide modal-wrap">
+    <button class="cta-btn modal-close" id="adminClose" type="button">Close</button>
+    <span class="admin-tag">Signed in as admin. This panel is for updating site content — appearance is entirely in visitors' hands now, except the one site-wide transition default below.</span>
+
+    <div class="gh-connect" id="ghConnectBox">
+      <h3 style="margin-top:0;">Connect to GitHub to save changes</h3>
+      <p class="sub">Needed once per browser session. Your token is never saved anywhere permanent — see the setup guide for how to create one.</p>
+      <div class="field"><label for="ghOwner">GitHub username</label><input id="ghOwner" type="text" placeholder="e.g. MrArk-X"></div>
+      <div class="field"><label for="ghRepo">Repository name</label><input id="ghRepo" type="text" placeholder="e.g. portfolio"></div>
+      <div class="field"><label for="ghToken">Personal access token</label><input id="ghToken" type="password" placeholder="github_pat_..."></div>
+      <p class="error-text" id="ghError">Couldn't connect — check the username, repo, and token.</p>
+      <button class="cta-btn primary" id="ghConnectBtn" type="button" style="background:var(--signal);border-color:var(--signal);color:var(--ink);">Connect</button>
+      <p class="sub" id="ghStatus" style="margin-top:10px;"></p>
+    </div>
+
+    <div class="admin-layout">
+      <div class="admin-tabs">
+        <button class="admin-tab active" data-tab="profile" type="button">Profile</button>
+        <button class="admin-tab" data-tab="projects" type="button">Projects</button>
+        <button class="admin-tab" data-tab="certs" type="button">Certificates</button>
+        <button class="admin-tab" data-tab="journal" type="button">Journal</button>
+        <button class="admin-tab" data-tab="sitesettings" type="button">Site settings</button>
+        <button class="admin-tab" data-tab="messages" type="button">Messages</button>
+        <button class="cta-btn" id="logoutBtn" type="button" style="margin-top:10px;">Sign out</button>
+      </div>
+
+      <div class="admin-content">
+
+        <div class="admin-pane active" data-pane="profile">
+          <h3>Profile</h3>
+          <p class="sub">Your photo and bio, shown in the About section — visible to every visitor once saved.</p>
+          <div class="avatar-preview" id="avatarPreview"><span style="font-size:11px;color:var(--paper-dim)">No photo</span></div>
+          <div class="field"><label for="avatarUrl">Photo URL</label><input id="avatarUrl" type="text" placeholder="https://... link to your photo"></div>
+          <p class="sub">Free ways to host a photo: add it to this GitHub repo and use its raw link, or use postimages.org / imgur.com — no account needed for postimages.</p>
+          <div class="field"><label for="bioName">Initials shown before a photo is uploaded</label><input id="bioName" type="text" placeholder="AK"></div>
+          <div class="field"><label for="bioText1">Bio — paragraph 1</label><textarea id="bioText1"></textarea></div>
+          <div class="field"><label for="bioText2">Bio — paragraph 2</label><textarea id="bioText2"></textarea></div>
+          <p class="error-text" id="profileError">Something went wrong saving — try again.</p>
+          <button class="cta-btn primary" id="profileSave" type="button" style="background:var(--signal);border-color:var(--signal);color:var(--ink);">Save profile</button>
+        </div>
+
+        <div class="admin-pane" data-pane="projects">
+          <h3>Add a project</h3>
+          <p class="sub">Appears in Work for every visitor once GitHub finishes redeploying (usually under a minute).</p>
+          <div class="field"><label for="pTitle">Title</label><input id="pTitle" type="text" placeholder="e.g. Inventory dashboard for a retail client"></div>
+          <div class="field"><label for="pTag">Category</label><input id="pTag" type="text" placeholder="e.g. Web development"></div>
+          <div class="field"><label for="pDesc">Description</label><textarea id="pDesc" placeholder="What it does and the result it got"></textarea></div>
+          <div class="field"><label for="pRole">Your role</label><input id="pRole" type="text" placeholder="e.g. Freelance developer"></div>
+          <div class="field"><label for="pYear">Year</label><input id="pYear" type="text" placeholder="e.g. 2026"></div>
+          <div class="field"><label for="pLink">Project link (optional)</label><input id="pLink" type="text" placeholder="https://..."></div>
+          <p class="error-text" id="projectError">Add at least a title and description first.</p>
+          <button class="cta-btn primary" id="projectSubmit" type="button" style="background:var(--signal);border-color:var(--signal);color:var(--ink);">Add project</button>
+          <h3 style="margin-top:26px;">Existing projects</h3>
+          <p class="sub">Remove a project here — the live Work section never shows a remove button to visitors.</p>
+          <div id="adminProjectList"></div>
+        </div>
+
+        <div class="admin-pane" data-pane="certs">
+          <h3>Add a certificate</h3>
+          <div class="field"><label for="cTitle">Title</label><input id="cTitle" type="text" placeholder="e.g. Claude AI — Anthropic"></div>
+          <div class="field"><label for="cDesc">Description</label><textarea id="cDesc" placeholder="What it's for"></textarea></div>
+          <div class="field"><label for="cLink">Credential link</label><input id="cLink" type="text" placeholder="https://..."></div>
+          <div class="field"><label for="cStatus">Status</label>
+            <select id="cStatus" style="width:100%;background:var(--ink);border:1px solid var(--line-strong);border-radius:7px;color:var(--paper);padding:10px 12px;">
+              <option value="done">Completed</option>
+              <option value="progress">In progress</option>
+            </select>
+          </div>
+          <p class="error-text" id="certError">Add at least a title.</p>
+          <button class="cta-btn primary" id="certSubmit" type="button" style="background:var(--signal);border-color:var(--signal);color:var(--ink);">Add certificate</button>
+          <h3 style="margin-top:26px;">Existing certificates</h3>
+          <p class="sub">Remove a certificate here — the live Certificates section never shows a remove button to visitors.</p>
+          <div id="adminCertList"></div>
+        </div>
+
+        <div class="admin-pane" data-pane="journal">
+          <h3>Add a journal write-up</h3>
+          <p class="sub">The card fields (title/date/excerpt) show on the Journal section. Everything else shows inside the "Read more" pop-up — company photo, what you actually did, and a testimonial with photo and name. Photos are pasted links, not uploads.</p>
+          <div class="field"><label for="jTitle">Title</label><input id="jTitle" type="text" placeholder="e.g. Rebuilding a booking site for a local retailer"></div>
+          <div class="field"><label for="jDate">Date / label</label><input id="jDate" type="text" placeholder="e.g. August 2026"></div>
+          <div class="field"><label for="jExcerpt">Short excerpt (shown on the card)</label><textarea id="jExcerpt" placeholder="One or two sentences to pull people in"></textarea></div>
+
+          <h3 style="margin-top:22px;">Company</h3>
+          <div class="field"><label for="jCompanyPhoto">Company photo URL</label><input id="jCompanyPhoto" type="text" placeholder="https://... link to a photo"></div>
+          <div class="field"><label for="jCompanyName">Company name</label><input id="jCompanyName" type="text" placeholder="e.g. Northgate Retail Ltd"></div>
+          <div class="field"><label for="jContact">Company contact (email, phone, or website)</label><input id="jContact" type="text" placeholder="e.g. hello@company.com"></div>
+
+          <h3 style="margin-top:22px;">What you actually did</h3>
+          <div class="field"><label for="jDetails">Project description</label><textarea id="jDetails" placeholder="What you built, the problem it solved, the result"></textarea></div>
+
+          <h3 style="margin-top:22px;">Testimonial</h3>
+          <div class="field"><label for="jTestimonialPhoto">Testimonial-giver's photo URL</label><input id="jTestimonialPhoto" type="text" placeholder="https://... link to a photo"></div>
+          <div class="field"><label for="jTestimonialQuote">Testimonial (type up what they told you)</label><textarea id="jTestimonialQuote" placeholder="What the client or contact said about your work"></textarea></div>
+          <div class="field"><label for="jTestimonialName">Testimonial-giver's name</label><input id="jTestimonialName" type="text" placeholder="e.g. Grace Mballa, Operations Manager"></div>
+
+          <p class="error-text" id="journalError">Add at least a title and excerpt first.</p>
+          <button class="cta-btn primary" id="journalSubmit" type="button" style="background:var(--signal);border-color:var(--signal);color:var(--ink);">Add journal post</button>
+          <h3 style="margin-top:26px;">Existing journal posts</h3>
+          <p class="sub">Remove a post here — the live Journal section never shows a remove button to visitors.</p>
+          <div id="adminJournalList"></div>
+        </div>
+
+        <div class="admin-pane" data-pane="sitesettings">
+          <h3>Site-wide transition style</h3>
+          <p class="sub">This is the one appearance setting that's still yours to control — it's what every visitor sees by default, unless they've picked their own transition style from the public "change appearance" button.</p>
+          <div class="anim-grid" id="adminAnimGrid"></div>
+        </div>
+
+        <div class="admin-pane" data-pane="messages">
+          <h3>Messages</h3>
+          <p class="sub">There's no saved shared inbox right now — that needed Firestore, which is paused for now. Messages sent through the Contact form arrive as a pre-filled email to you directly instead, which already works reliably. A saved inbox is a natural next step once Firestore comes back into the plan.</p>
+        </div>
+
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="modal-overlay" id="postOverlay">
+  <div class="modal wide modal-wrap">
+    <button class="cta-btn modal-close" id="postClose" type="button">Close</button>
+    <p class="post-modal-date" id="pmDate"></p>
+    <h3 class="post-modal-title" id="pmTitle"></h3>
+
+    <div id="pmCompanyPhotoWrap"></div>
+    <p class="post-company-name" id="pmCompanyName"></p>
+
+    <p class="post-details" id="pmDetails"></p>
+
+    <div class="testimonial-row">
+      <div class="testimonial-photo-col" id="pmTestimonialPhotoWrap"></div>
+      <div>
+        <p class="testimonial-quote" id="pmTestimonialQuote"></p>
+      </div>
+    </div>
+    <p class="post-contact" id="pmContact"></p>
+  </div>
+</div>
+
+<script type="module" src="script.js"></script>
+</body>
+</html>
