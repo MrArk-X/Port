@@ -5,7 +5,17 @@
     "bio2": "More recently I've moved into data analysis and applied AI — including certified work with Anthropic's Claude — and I'm currently completing an AI Engineering certificate with Udemy.",
     "photoUrl": ""
   },
-  "projects": [],
+  "projects": [
+    {
+      "id": "mtzuqz8rjueoqj",
+      "title": "JARVIS AI",
+      "tag": "AI / Python development",
+      "role": "Personal Project for My Degree",
+      "year": "2026",
+      "description": "With the use of variouse lybaries and the under standing of what AI is and with a childhood inspiration drawn from Tony Stark (Iron Man), I put together my very own desktop assistant which can run and perform system heath checks and diagnostics with Very limited human intervention all humans need to do is grant it the permission to carryout its activities.",
+      "link": ""
+    }
+  ],
   "certificates": [],
   "journalPosts": [],
   "siteSettings": {
