@@ -25,7 +25,15 @@
       "link": ""
     }
   ],
-  "certificates": [],
+  "certificates": [
+    {
+      "id": "mtzv0reau299o3",
+      "title": "Higher National Deploma (H.N.D)",
+      "description": "A Certificate which holds proof that I Anyim Kelechi L.U, has both theory and practical knowladge in Computer Science and networks yeah 2025",
+      "link": "",
+      "status": "done"
+    }
+  ],
   "journalPosts": [],
   "siteSettings": {
     "defaultAnimation": "fadeup"
