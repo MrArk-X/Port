@@ -7,6 +7,15 @@
   },
   "projects": [
     {
+      "id": "mtzux0mes6scza",
+      "title": "Portfolio website",
+      "tag": "Web Development",
+      "role": "Freelance Developer",
+      "year": "2026",
+      "description": "Built this very website to serve as a testament to my skills as a full stack web developer with HTML, CSS, JavaScript, PHP, SQL with technologies such as Github for version control.",
+      "link": "https://mrark-x.github.io/Port/"
+    },
+    {
       "id": "mtzuqz8rjueoqj",
       "title": "JARVIS AI",
       "tag": "AI / Python development",
