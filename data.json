@@ -5,8 +5,35 @@
     "bio2": "More recently I've moved into data analysis and applied AI — including certified work with Anthropic's Claude — and I'm currently completing an AI Engineering certificate with Udemy.",
     "photoUrl": ""
   },
-  "projects": [],
-  "certificates": [],
+  "projects": [
+    {
+      "id": "mtzux0mes6scza",
+      "title": "Portfolio website",
+      "tag": "Web Development",
+      "role": "Freelance Developer",
+      "year": "2026",
+      "description": "Built this very website to serve as a testament to my skills as a full stack web developer with HTML, CSS, JavaScript, PHP, SQL with technologies such as Github for version control.",
+      "link": "https://mrark-x.github.io/Port/"
+    },
+    {
+      "id": "mtzuqz8rjueoqj",
+      "title": "JARVIS AI",
+      "tag": "AI / Python development",
+      "role": "Personal Project for My Degree",
+      "year": "2026",
+      "description": "With the use of variouse lybaries and the under standing of what AI is and with a childhood inspiration drawn from Tony Stark (Iron Man), I put together my very own desktop assistant which can run and perform system heath checks and diagnostics with Very limited human intervention all humans need to do is grant it the permission to carryout its activities.",
+      "link": ""
+    }
+  ],
+  "certificates": [
+    {
+      "id": "mtzv0reau299o3",
+      "title": "Higher National Deploma (H.N.D)",
+      "description": "A Certificate which holds proof that I Anyim Kelechi L.U, has both theory and practical knowladge in Computer Science and networks yeah 2025",
+      "link": "",
+      "status": "done"
+    }
+  ],
   "journalPosts": [],
   "siteSettings": {
     "defaultAnimation": "fadeup"
